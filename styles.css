@@ -1,0 +1,206 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+.colored-section {
+  background-color: #46b7b9;
+}
+
+.light-section {
+  background-color: #dff5f2;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 4% 13%;
+}
+
+
+
+
+
+
+
+                                                                    /* Title  */
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin: 0 0.3rem;
+}
+
+.title-heading {
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.title-image {
+  position: absolute;
+  right: 6rem;
+  transform: rotate(-15deg);
+  width: 80%;
+}
+
+@media (max-width: 1200px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  .download-button {
+    margin: 3rem auto;
+  }
+
+}
+
+
+                                                          /* Features section */
+
+
+
+
+
+.feature-card {
+  padding: 3% 6%;
+}
+
+.feature-heading {
+  color: #321f28;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+}
+
+.feature-icon {
+  color: #46b7b9;
+  margin-bottom: 0.5rem;
+}
+
+.feature-icon:hover {
+  color: #87dfd6;
+}
+
+
+                                                      /* Testimonials section */
+
+#testimonials {
+  color: #fff;
+  background-color: #87dfd6;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 1rem auto;
+  width: 15%;
+}
+
+.testimonial-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 2;
+}
+
+                                                            /* Press section */
+
+#press {
+  background-color: #87dfd6;
+  padding: 2% 10% 3%;
+}
+
+.press-logo {
+  margin: 0.8rem 1rem;
+}
+
+                                                          /* Pricing section */
+
+
+.section-heading {
+  color: #321f28;
+  font-size: 3rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+}
+
+.pricing-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.card {
+  color: #321f28;
+  padding: 2rem 2rem 1rem;
+  margin: 1.5rem;
+}
+
+
+                                                        /* Download Section */
+
+
+#download {
+  color: #fff;
+}
+
+.button-bottom {
+  margin: 3rem 2rem;
+}
+
+                                                          /* Footer Section   */
+
+#footer {
+  color: #321f28;
+  padding: 1.4% 3.4%;
+}
+
+.footer-icon {
+  margin: 0.5rem;
+}
+
+.nomargin {
+  margin-bottom: 0;
+}
+
+
+
+/* Refactoring:
+шрифты
+text-align
+padding ( container-fluid )
+colored / light section */
