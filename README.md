@@ -1,5 +1,5 @@
 # VR Glasses Site
-https://evgeniiatyourservice.github.io/vrglasses/
+https://evgeniiatyourservice.github.io/vr-glasses-site/
 
 Advertising site made with Bootstrap toolkit
 
